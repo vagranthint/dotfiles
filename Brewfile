@@ -13,6 +13,9 @@ unless ENV['TRAVIS_JOB_ID']
   brew 'youtube-dl'
 
   if RUBY_PLATFORM =~ /darwin/
+    brew 'git'
+    brew 'hub'
+    brew 'tree'
     brew 'docker'
     brew 'docker-compose'
     brew 'ffmpeg'
